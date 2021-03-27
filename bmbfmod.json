@@ -1,0 +1,23 @@
+{
+  "id": "questom-playlists",
+  "name": "QuestomPlaylists",
+  "version": "0.1.0",
+  "author": "nyamimi~",
+  "description": [
+    "Experimental .bplist loader for Beat Saber Quest."
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.14.0",
+  "platform": "Quest",
+  "components": [
+    {
+      "type": "HookMod",
+      "installAction": {
+        "installLibraryFile": "libquestom-playlists.so"
+      },
+      "uninstallAction": {
+        "removeLibraryFile": "libquestom-playlists.so"
+      }
+    }
+  ]
+}
